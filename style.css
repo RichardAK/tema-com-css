@@ -1,14 +1,37 @@
 body {
+    background-image: url(bird-g329641fab_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
 main#container {
+    border-width: 1px; border-style: inset; border-color: rgb(24, 3, 206);
+    background: linear-gradient(90deg, rgba(84, 40, 196, 0.425) 0%, rgba(39, 1, 110, 0.425) 48%, rgba(12, 0, 182, 0.425) 100%);
+    box-shadow: 5px 5px 5px 5px rgb(131, 68, 156);
+    border-radius: 15%;
+    
 }
 
 h1.titulo {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
-p.frase {
+p.frase 
+{
+    color:  rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
 }
 
-p.autor {
+p.autor 
+{
+    color:  rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+
 }
